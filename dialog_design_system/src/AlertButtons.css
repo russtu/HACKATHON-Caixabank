@@ -1,0 +1,43 @@
+
+.alert-buttons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.alert-buttons * {
+  padding: 5px;
+}
+.warning {
+  font-size: 75px;
+  color: #FFE100;
+  background-color: #FFFCE3;
+  border-radius: 35px;
+}
+.ok {
+  font-size: 75px;
+  color: #00BE60;
+  background-color: #DFF8EC;
+  border-radius: 35px;
+}
+.error {
+  font-size: 75px;
+  color: #E00028;
+  background-color: #FFE8EA;
+  border-radius: 35px;
+}
+.warning-button {
+  color: #FFE100;
+  background-color: #FFFCE3;
+  border-radius: 5px;
+}
+.ok-button {
+  color: #00BE60;
+  background-color: #DFF8EC;
+  border-radius: 5px;
+}
+.error-button {
+  color: #E00028;
+  background-color: #FFE8EA;
+  border-radius: 5px;
+}

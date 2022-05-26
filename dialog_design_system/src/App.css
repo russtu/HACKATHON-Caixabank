@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+
+body{
+  background-color: #E5E5E5;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+#main {
+  height: 50vh;
+  margin: auto;
+}
+#footer {
+  text-align: center;
+}
+#titlePage {
+  text-align: center;
+  font-family: Roboto Flex , sans-serif;
+}

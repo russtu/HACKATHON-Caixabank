@@ -1,0 +1,50 @@
+.dialog-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-delete-close {
+  background-color: #8B00E3;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.button-cancel {
+  background-color: white;
+  color: #8B00E3;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #8B00E3;
+}
+.box {
+  margin-top: 100px;
+  padding: 20px;
+  width: 400px;
+  height: 275px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  animation: slidein 0.5s  ease-in-out;
+}
+
+.x {
+  height: fit-content;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.4) ;
+  }
+  100% {
+    opacity: 100;
+    scale: 1;
+  }
+}
